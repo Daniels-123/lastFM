@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/placeCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gradsun2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NameTrack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="20px"
+                android:paddingVertical="5dp"
+                android:paddingLeft="10dp"
+                android:text="Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/textAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ArtistTrack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:lines="1"
+                android:paddingLeft="10dp"
+
+                android:paddingBottom="5dp"
+                android:text="Quote....................."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/textAccent" />
+
+            <TextView
+                android:id="@+id/listenersArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:lines="1"
+                android:paddingLeft="10dp"
+
+                android:paddingBottom="5dp"
+                android:text="Quote....................."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/textAccent" />
+
+            <TextView
+                android:id="@+id/durationTrack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:lines="1"
+                android:paddingLeft="10dp"
+
+                android:paddingBottom="5dp"
+                android:text="Quote....................."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/textAccent" />
+
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
