@@ -4,14 +4,13 @@ In this repo you will find a mix of various android technologies!
 
 
 
----
 
 # Basic workflow:
 
 ---
 
-***
-Retrofit and SQLite
+
+## Retrofit and SQLite
 ***
 
 I retrieved the information using Retrofit, the way that the data is stored starts in retroFitCalls class. wich is in the root of the package.
@@ -22,8 +21,8 @@ Given the scope of the project I decided to only have 'add' and 'read' functions
 
 So: In retroFitCalls I get the info and there I store the data in an Artist table and in a Tracks table.
 
-***
-UI and flow of information
+
+## UI and flow of information
 ***
 
 I didn't wanted to use too much fragments or memory, so I based the app on the default android tabbed activity. So the main part of the code will be found in PlaceHolderFragment class.
