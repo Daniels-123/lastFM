@@ -1,2 +1,2 @@
-rootProject.name='lastFMTest'
+rootProject.name='lastFM'
 include ':app'
