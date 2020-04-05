@@ -55,7 +55,7 @@ public class retrofitCalls {
                 .build();
 
         Api api = retrofit.create(Api.class);
-        String linkBuilder ="?method=geo.gettopartists&country=spain&api_key=829751643419a7128b7ada50de590067&format=json&page="+(mPAgeNumberArtist +1)+"&limit=20";
+        String linkBuilder ="?method=geo.gettopartists&country=colombia&api_key=829751643419a7128b7ada50de590067&format=json&page="+(mPAgeNumberArtist +1)+"&limit=20";
 
         Call<Artist> call = api.getTopArtist(linkBuilder);
         call.enqueue(new Callback<Artist>() {
@@ -102,7 +102,7 @@ public class retrofitCalls {
                 .build();
 
         Api api = retrofit.create(Api.class);
-        String linkBuilder ="?method=geo.gettoptracks&country=spain&api_key=829751643419a7128b7ada50de590067&format=json&page="+(mPageNumberTrack +1)+"&limit=20";
+        String linkBuilder ="?method=geo.gettoptracks&country=colombia&api_key=829751643419a7128b7ada50de590067&format=json&page="+(mPageNumberTrack +1)+"&limit=20";
         Call<Track> call = api.getTracks(linkBuilder);
 
         call.enqueue(new Callback<Track>() {

@@ -11,8 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service
+            android:name=".notifications.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
-            android:name="com.danielbuitrago.lastfm.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

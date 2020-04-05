@@ -28,12 +28,12 @@
         "source": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\hp\\Documents\\lastfm 2\\LastFm-API-SQLite-Retrofit-customAdapterExample-Java-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
